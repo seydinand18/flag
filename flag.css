@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flag{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    border-radius: 5%;
+    box-shadow: 5px 5px 100px black;
+}
+
+.stripe{
+   flex-grow: 1;
+   height: 100%;
+}
+
+.green-stripe{
+    background-color: rgb(30, 181, 58);
+    border-radius: 5% 0 0 5%;
+}
+
+.yellow-stripe{
+    background-color: rgb(252, 209, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-stripe{
+    background-color: rgb(206, 17, 38);
+       border-radius: 0 5% 5% 0;
+}
+
+.star {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 181, 58);
+    position: absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
